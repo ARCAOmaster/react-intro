@@ -1,0 +1,8 @@
+svg{
+    width: 1rem;
+}
+
+
+.icon-delete:hover svg{
+    fill: red;
+}

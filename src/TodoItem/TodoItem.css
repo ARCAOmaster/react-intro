@@ -1,0 +1,21 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.active {
+    color: forestgreen;
+    font-weight: 700;
+    font-size: large;
+}
+
+.inactive{
+    opacity: 0.5;
+}
+
+.completed {
+    text-decoration: line-through;
+}

@@ -1,0 +1,6 @@
+input {
+    width: -webkit-fill-available;
+    margin: 0 20vw;
+    height: 2rem;
+    text-align: center;
+}

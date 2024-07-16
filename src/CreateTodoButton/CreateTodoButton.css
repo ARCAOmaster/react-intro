@@ -1,0 +1,18 @@
+.btn-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;  
+}
+
+button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #30017ca4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    margin:0.5rem;
+}
