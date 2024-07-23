@@ -1,7 +1,7 @@
 function TodosEmpty() {
   return (
     <div>
-      <h1>There are no todos</h1>
+      <h1>Da le click al botón [ + ] para añadir una nueva tarea. </h1>
     </div>
   );
 }
