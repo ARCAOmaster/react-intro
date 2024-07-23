@@ -10,6 +10,7 @@ import { TodoContext } from '../TodoContext';
 import { Modal } from '../Modal'
 import '../Modal/Modal.css';
 import React from 'react';
+import { TodoForm } from '../TodoForm';
 
 function AppUI(){
   const {openModal, setOpenModal} = React.useContext(TodoContext);
@@ -39,12 +40,7 @@ function AppUI(){
           <CreateTodoButton/>
           {openModal &&
             (<Modal>
-            <label>Todo:</label>
-            <input className='ModalInput'/>
-            <div>
-              <button>+</button>
-              <button onClick={() => setOpenModal((state) => !state)} style={{backgroundColor: '#af0000'}}>Cancelar</button>
-            </div>
+              <TodoForm/>
           </Modal>)}
         </>
       );

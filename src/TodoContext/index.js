@@ -23,6 +23,15 @@ function TodoProvider({children}){
       newTodos.splice(todoIndex, 1);
       saveTodos(newTodos);
     }
+
+    const addTodo = (text) => {
+      const newTodos = [...todos];
+      newTodos.push({
+        text,
+        completed: false
+      });
+      saveTodos(newTodos);
+    }
   
     return (
         <TodoContext.Provider value={
@@ -36,7 +45,9 @@ function TodoProvider({children}){
             loading,
             error,
             openModal,
-            setOpenModal}
+            setOpenModal,
+            addTodo
+          }
         }>
             {children}
         </TodoContext.Provider>
