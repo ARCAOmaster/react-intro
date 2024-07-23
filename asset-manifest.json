@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Users/Alexis%20Avila/Documents/Alexis/platzi/React/build/static/css/main.ba809f06.css",
+    "main.js": "/Users/Alexis%20Avila/Documents/Alexis/platzi/React/build/static/js/main.9e991f61.js",
+    "index.html": "/Users/Alexis%20Avila/Documents/Alexis/platzi/React/build/index.html",
+    "static/media/delete.svg": "/Users/Alexis%20Avila/Documents/Alexis/platzi/React/build/static/media/delete.253668d653616a4e68d22c69ee5da594.svg",
+    "static/media/check.svg": "/Users/Alexis%20Avila/Documents/Alexis/platzi/React/build/static/media/check.38f596e64d38d54463f988385b633c05.svg",
+    "main.ba809f06.css.map": "/Users/Alexis%20Avila/Documents/Alexis/platzi/React/build/static/css/main.ba809f06.css.map",
+    "main.9e991f61.js.map": "/Users/Alexis%20Avila/Documents/Alexis/platzi/React/build/static/js/main.9e991f61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba809f06.css",
+    "static/js/main.9e991f61.js"
+  ]
+}
